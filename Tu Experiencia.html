@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tu Experiencia</title>
+    <link rel="icon" type="image/png" href="./icono.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <figure class="logo">
+        <a href="index.html"><img src="./Logo_Sin_Fondo_Blanco.png" alt="logo empresa"></a>
+    </figure>
+    <nav class="contenedor__botones2">
+        <a class="botones" href="index.html">Pagina Principal</a>
+    </nav>
+    <section class="contenedor">
+        <div class="contenedor__texto">
+            <h1 class="titulo_experiencia">Cuentanos tu Experiencia</h1>
+            <br>
+            <p class="parrafo_experiencia">Es nuestro compromiso mejorar constantemente es por eso que nos 
+            encantaría saber cómo fue tu experiencia en nuestro restaurante.</p>
+            <p class="parrafo_experiencia"><em>¡Queremos Hacer seguimiento a tu experiencia, para ello registra los siguientes datos!</em></p>
+            <br>
+            <form action="">
+                <label>Tipo Documento:</label>
+                <select>
+                    <option value="-">-</option>
+                    <option value="C.C.">Cedula de Ciudadania</option>
+                    <option value="C.E.">Cedula de Extranjeria</option>
+                    <option value="T.I.">Tarjeta de Identidad</option>
+                    <option value="PAS">Pasaporte</option>
+                    <option value="P.T">Permiso Temporal Permanencia</option>
+                </select><br><br>
+                <label>Numero de Identificación:</label>
+                <input type="number" name="Identificación"><br><br>
+                <label>Nombres:</label>
+                <input type="text" name="Nombres"><br><br>
+                <label>Apellidos:</label>
+                <input type="text" name="Apellidos"><br><br>
+                <div class="col-md-6">
+                    <label for="fecha de nacimiento" class="form label">fecha de nacimiento</label><br>
+                    <input type="date" class="form-control" id ="fecha de nacimiento" required>
+                </div><br>
+                <label>Genero:</label>
+                <select>
+                    <option value="-">-</option>
+                    <option value="Hombre">Masculino</option>
+                    <option value="Mujer">Femenino</option>
+                    <option value="No_Binario">No Binario</option>
+                </select><br><br>
+                <label>Correo Electronico:</label>
+                <input type="text" name="correo"><br><br>
+                <label>Telefono:</label>
+                <input type="number" name="num_telefono"><br><br>
+                <label>Ciudad en la que visitaste nuestro Restaurante</label>
+                <select>
+                    <option value="-">-</option>
+                    <option value="Bogotá">Bogotá</option>
+                    <option value="Cali">Cali</option>
+                    <option value="Cartagena">Cartagena</option>
+                    <option value="Medellin">Medellin</option>
+                </select><br><br><br><br>
+            </form>
+            <p class="parrafo_experiencia"><em>Tu opinión es importante para que siempre te sientas bien atendido:</em></p>
+            <textarea name="Opinion_visitante"></textarea>
+        </div> 
+        <figure>
+            <img src="./Borde_derecho_p2.png" alt="plato de comida oriental y palillos chinos">
+        </figure> 
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+<footer>© 2024 Sushi & Grill. Todos los derechos reservados. Desarrollado por Cesar Martinez</footer>
+</html>
